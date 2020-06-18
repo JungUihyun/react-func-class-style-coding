@@ -9,7 +9,7 @@ function App() {
       <ClassComp initNumber={2}></ClassComp>
     </div>
   );
-}
+}     
 let funcStyle = 'color:blue';
 let funcId = 0;
 function FuncComp(props) {
