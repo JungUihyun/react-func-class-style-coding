@@ -16,7 +16,7 @@ function FuncComp(props) {
   let numberState = useState(props.initNumber);
   let number = numberState[0];
   let setNumber = numberState[1];
-
+                       
   // let dateState = useState((new Date()).toString());
   // let _date = dateState[0];
   // let setDate = dateState[1];
@@ -27,7 +27,7 @@ function FuncComp(props) {
     console.log('%cfunc => useEffect (componentDidMount & componentDidUpdate) ' + (++funcId), funcStyle);  
     document.title = number + ' : ' + _date;
   }); 
-
+ 
   console.log('%cfunc => render ' + (++funcId), funcStyle);
   return (
     <div className="container">
